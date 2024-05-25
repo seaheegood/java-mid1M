@@ -12,15 +12,15 @@ public class ImmutableMyDate {
         this.day = day;
     }
 
-    public ImmutableMyDate changeYear(int year) {
+    public ImmutableMyDate withYear(int year) {
         return new ImmutableMyDate(year, month, day);
     }
 
-    public ImmutableMyDate changeMonth(int month) {
+    public ImmutableMyDate withMonth(int month) {
         return new ImmutableMyDate(year, month, day);
     }
 
-    public ImmutableMyDate changeDay(int day) {
+    public ImmutableMyDate withDay(int day) {
         return new ImmutableMyDate(year, month, day);
     }
 
