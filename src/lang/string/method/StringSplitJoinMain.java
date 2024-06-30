@@ -24,5 +24,9 @@ public class StringSplitJoinMain {
         // join()
         String joinedStr = String.join("-", "A", "B", "C");
         System.out.println("joinedStr: " + joinedStr);
+
+        // 문자열 배열 연결
+        String result = String.join("-", splitStr);
+        System.out.println("result: " + result);
     }
 }
